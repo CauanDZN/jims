@@ -4,23 +4,11 @@ export const menuLinks = [
     url: "/"
   },
   {
-    title: "Sobre nós",
-    url: "/about"
-  },
-  {
-    title: "Bodys",
-    url: "/categoria/bodys"
-  },
-  {
-    title: "Saias",
-    url: "/categoria/saias"
-  },
-  {
-    title: "Calças",
-    url: "/categoria/calças"
+    title: "Instagram",
+    url: "/"
   },
   {
     title: "Consultoria de Imagem",
-    url: "/contact"
+    url: "/"
   }
 ]
