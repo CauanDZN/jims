@@ -40,6 +40,7 @@ export default class MyDocument extends Document {
 					<link rel="canonical" href="https://" />
 					<meta name="description" content="Description" />
 					<meta property="og:type" content="website" />
+					<title>JIM's Corporation</title>
 
 					<link
 						rel="preconnect"

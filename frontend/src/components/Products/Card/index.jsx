@@ -25,7 +25,7 @@ const Card = (props) => {
 
       <S.Content>
         <S.Title>{props.title}</S.Title>
-        <S.Price>{props.price}</S.Price>
+        <S.Price>R$ {props.price}</S.Price>
       </S.Content>
     </S.Card>
   )

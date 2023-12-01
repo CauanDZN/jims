@@ -1,19 +1,10 @@
-const elements = {
-  h1: "h1",
-  h2: "h2",
-  h3: "h3",
-  h4: "h4",
-  h5: "h5",
-  h6: "h6"
-};
+import styled from "styled-components";
 
-const Heading = ({
-  type,
-  children,
-  ...props
-}) => {
-  const Component = as ? elements[type] : elements.h1;
-  return /*#__PURE__*/React.createElement(Component, props, children);
-}
-
-export default Heading;
+export const TitleBox = styled.div`
+  margin-bottom: ${(props) => (props.mb ? '4rem' : '2rem')};
+  font-family: ${(props) =>
+    props.font 
+      ? ({theme}) => theme.fonts.font2 
+      : ({theme}) => theme.fonts.font1};
+  text-align: ${(props) => props.align || 'center'};
+`;
