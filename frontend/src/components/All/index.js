@@ -8,7 +8,7 @@ import Heading from "../Utils/Heading";
 import TitleBox from "../Utils/Heading/titleBox";
 import SliderList from "../Products/SliderList";
 import Section from "../Utils/Section";
-import Bodys from "../Products/Bodys";
+import Cropped from "../Products/Cropped";
 import Calcas from "../Products/Calcas";
 import Coletes from "../Products/Coletes";
 import Saias from "../Products/Saias";
@@ -24,7 +24,7 @@ export {
   TitleBox,
   SliderList,
   Section,
-  Bodys,
+  Cropped,
   Calcas,
   Coletes,
   Saias

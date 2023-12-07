@@ -15,7 +15,7 @@ import img5 from '../../../../public/bodys/bodys (5).jpg'
 import img6 from '../../../../public/bodys/bodys (6).jpg'
 import img7 from '../../../../public/bodys/bodys (7).jpg'
 
-const Bodys = (props) => {
+const Cropped = (props) => {
   return (
     <Section>
       <Container>
@@ -115,4 +115,4 @@ const Bodys = (props) => {
   )
 }
 
-export default Bodys
+export default Cropped

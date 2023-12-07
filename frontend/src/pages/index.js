@@ -1,4 +1,4 @@
-import { Highlights, Heading, TitleBox, SliderList, Bodys, Calcas, Saias, Coletes } from '@/components/All'
+import { Highlights, Heading, TitleBox, SliderList, Cropped, Calcas, Saias, Coletes } from '@/components/All'
 import { Container } from 'react-bootstrap'
 import Head from 'next/head'
 
@@ -9,7 +9,7 @@ const Home = () => {
 				<title>Jim&apos;s Corporation</title>
 			</Head>
 			<Highlights />
-			<Bodys title="Bodys" />
+			<Cropped title="Cropped" />
 			<Calcas title="Calças" />
 			<Coletes title="Coletes" />
 			<Saias title="Saias" />
