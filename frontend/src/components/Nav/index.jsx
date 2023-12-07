@@ -10,7 +10,7 @@ const Nav = () => {
         {menuLinks.map((link, index) => (
           <S.NavItem key={index}>
             <Link legacyBehavior href={link.url}>
-              <a>{link.title}</a>
+              <a target='_blank'>{link.title}</a>
             </Link>
           </S.NavItem>
         ))}
